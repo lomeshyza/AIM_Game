@@ -29,6 +29,9 @@ a:hover {
 h1 {
   line-height: 1.4;
   font-size: 4rem;
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
 }
 
 .screen {
@@ -40,6 +43,7 @@ h1 {
   width: 100vw;
   transition: margin 0.5s ease-out;
   background: linear-gradient(90deg, #29323c 0%, #485563 100%);
+  padding: 0 10px;
 }
 
 .screen.up {
@@ -93,6 +97,9 @@ h1 {
   box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
   border-radius: 30px;
   overflow: hidden;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .circle {
