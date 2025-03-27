@@ -1,4 +1,4 @@
-## Доска для рисования
+## Aim-Game
 
 [![image info](./img/preview.png)](https://lomeshyza.github.io/AIM_Game/)
 
